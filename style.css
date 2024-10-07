@@ -17,6 +17,10 @@ gallery-container{
     font-family: raleway, serif;
     font-size: 25px;
     background: #ffffff;
+  
+  #about-us{
+  font-family:Nanum Myeongjo, serif;   
+  }
 
 .header-buttons button {
     font-family:  
