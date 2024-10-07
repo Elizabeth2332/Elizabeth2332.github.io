@@ -1,0 +1,40 @@
+#ODesign {
+font-family:Nanum Myeongjo, serif; 
+text-align: center ;
+}
+
+header { 
+padding:25px 50px ;
+background-color: tan; 
+}
+body p{
+font-family: Arial ;
+}
+gallery-container{
+  
+}
+.about{ 
+    font-family: raleway, serif;
+    font-size: 25px;
+    background: #ffffff;
+
+.header-buttons button {
+    font-family:  
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-bottom: 5px solid #5757a0;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: 
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
