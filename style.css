@@ -1,8 +1,8 @@
 
 #ODesign {
 font-family:Nanum Myeongjo, serif; 
-text-align: center ;
-color: #F8F8FF
+text-align: center;
+color: #F8F8FF;
 }
 
 header { 
@@ -42,10 +42,10 @@ footer {
 }
 
 #call{
-    text-aling: left
+    text-aling: left;
 }
 
 .gallery-container{
-    text-aling: center
+    text-aling: center;
 }
 
