@@ -1,3 +1,4 @@
+
 #ODesign {
 font-family:Nanum Myeongjo, serif; 
 text-align: center ;
@@ -9,18 +10,13 @@ background-color: tan;
 }
 body p{
 font-family: Arial;
+font-size: 25px;
 }
-gallery-container{
-  
+
+.captions{
+font-family:Nanum Myeongjo, serif;     
 }
-.about{ 
-    font-family: raleway, serif;
-    font-size: 25px;
-    background: #ffffff;
-  
-  #about-us{
-  font-family:Nanum Myeongjo, serif;   
-  }
+
 
 .header-buttons button {
     font-family:  
