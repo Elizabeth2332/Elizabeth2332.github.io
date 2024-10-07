@@ -41,6 +41,11 @@ footer {
     width: 100%;
 }
 
-#callP{
+#call{
     text-aling: left
 }
+
+.gallery-container{
+    text-aling: center
+}
+
