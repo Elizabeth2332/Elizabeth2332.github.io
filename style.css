@@ -19,14 +19,15 @@ font-family:Nanum Myeongjo, serif;
 
 
 .header-buttons button {
-    font-family:  
-    background-color: #ff9800;
+    font-family: Arial;
+    background-color: lavander;
+    display: inline-block
     color: white;
     border: none;
     padding: 10px 20px;
     margin: 0 10px;
     cursor: pointer;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid #5757a0;
     border-radius: 5px;
 }
 footer {
