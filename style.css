@@ -32,9 +32,8 @@ font-family:Nanum Myeongjo, serif;
     border-radius: 5px;
 }
 footer {
-    font-family: Qwitcher Grypen;
+    font-family: Arial;
     padding: 10px 0;
-    background: 
     color: #ffffff;
     position: relative;
     bottom: 0;
@@ -47,6 +46,15 @@ footer {
 }
 
 #call{
+    font-family: Arial;
+    color: #F8F8FF;
+    background-color: lavander;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-bottom: 5px solid #433813;
+    border-radius: 5px;
     text-aling: left;
 }
 
