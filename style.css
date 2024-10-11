@@ -1,16 +1,16 @@
 #ODesign {
 font-family:Nanum Myeongjo, serif; 
 text-align: center;
-color:#808080 ;
+color: #FFFAF0;
 }
 
 header { 
-padding:25px 50px ;
-background-color:#E6E6FA; 
+padding: 25px 50px;
+background-color: #E6E6FA; 
 }
 body p{
 font-family: Arial;
-font-size: 25px;
+font-size: 20px;
 }
 
 .captions{
@@ -33,10 +33,10 @@ font-family:Nanum Myeongjo, serif;
 footer {
     font-family: Arial;
     padding: 10px 0;
-    color: #808080;
     position: relative;
     bottom: 0;
     width: 100%;
+    background-color: #E6E6FA; 
 }
  .call-button {
             position: fixed;
@@ -52,7 +52,7 @@ footer {
             text-decoration: none;
         }
         .call-button:hover {
-            background-color: #218838;
+            background-color: ;
 
 .gallery-container{
     text-aling: center;
@@ -63,4 +63,6 @@ footer {
 }
 ul li{
     font-family: Arial;
+    font-size: 20px;
+    color: #808080;
 }
