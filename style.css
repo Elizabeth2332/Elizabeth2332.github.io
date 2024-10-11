@@ -1,12 +1,12 @@
 #ODesign {
 font-family:Nanum Myeongjo, serif; 
 text-align: center;
-color: #F8F8FF;
+color:#808080 ;
 }
 
 header { 
 padding:25px 50px ;
-background-color: #E6E6FA; 
+background-color:#E6E6FA; 
 }
 body p{
 font-family: Arial;
@@ -33,7 +33,7 @@ font-family:Nanum Myeongjo, serif;
 footer {
     font-family: Arial;
     padding: 10px 0;
-    color: #ffffff;
+    color: #808080;
     position: relative;
     bottom: 0;
     width: 100%;
