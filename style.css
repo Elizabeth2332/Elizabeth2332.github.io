@@ -14,14 +14,17 @@ font-size: 20px;
 }
 
 .captions{
-font-family:Nanum Myeongjo, serif;     
+font-family:Nanum Myeongjo, serif;
+font-size: 25px;
+
 }
 
 
 .header-buttons button {
+    position: fixed;
     font-family: Arial;
-    color: #FFFAF0;
-    background-color: ;
+    color: #808080;
+    background-color:#FFFFF0 ;
     display: inline-block
     border: none;
     padding: 10px 20px;
@@ -36,7 +39,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    background-color: #E6E6FA; 
+    background-color: #000000; 
 }
  .call-button {
             position: fixed;
