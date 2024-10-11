@@ -21,18 +21,23 @@ font-size: 25px;
 
 
 .header-buttons button {
-    position: fixed;
+    
     font-family: Arial;
-    color: #808080;
-    background-color:#FFFFF0 ;
     display: inline-block
-    border: none;
-    padding: 10px 20px;
-    margin: 0 10px;
+    position: fixed;
+    padding-left: 0;
+    margin-left: 0;
+    color: #808080;
+    display: inline-block;
     cursor: pointer;
+    background-color:#FFFFF0 ;
     border-bottom: 5px solid #433813;
     border-radius: 5px;
 }
+
+.header-buttons button {
+    display: inline;
+    
 footer {
     font-family: Arial;
     padding: 10px 0;
@@ -62,7 +67,7 @@ footer {
 }
 .gallery-container img {
     display: inline-block;
-    margin: 10px; /* Optional: Adds spacing between images */
+    margin: 10px; /* Adds spacing between images */
 }
 ul li{
     font-family: Arial;
