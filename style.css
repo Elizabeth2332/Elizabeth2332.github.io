@@ -19,24 +19,38 @@ font-family:Nanum Myeongjo, serif;
 font-size: 25px;
 
 }
-
-
-.header-buttons button {   
-font-family: Arial;
-position: fixed;
-bottom: 20px;
-left: 20px;
-padding: 15px 25px;
-background-color: #FFFFF0;
-color:#FFFAF0;
-border-bottom: 5px solid white;
-border-radius: 5px;
-position: fixed;
-
-.call-button:hover {
-display: inline-block;
+.header-buttons {
+    position: fixed;          /* Sticks the buttons to the viewport */
+    top: 0;                   /* Position at the very top */
+    left: 0;                  /* Align to the left of the screen */
+    width: 100%;              /* Span the entire width of the screen */
+    background-color: #FFFFF0;   /* Dark background color for the menu */
+    padding: 10px 0;          /* Padding for spacing */
+    display: flex;            /* Flexbox to align buttons */
+    justify-content: center;  /* Center the buttons horizontally */
+    z-index: 1000;            /* Ensure it stays above other content */
 }
-  
+
+.header-buttons button {
+    margin: 0 10px;            /* Spacing between buttons */
+    padding: 10px 20px;        /* Button padding */
+    background-color: #800000; /* Green background */
+    color: white;              /* White text */
+    border: none;              /* No border */
+    border-radius: 5px;        /* Rounded edges */
+    cursor: pointer;           /* Pointer cursor on hover */
+    font-size: 16px;           /* Increase font size */
+}
+
+.header-buttons button:hover {
+    background-color: #45a049;  /* Darken on hover */
+}
+
+/* body {
+    padding-top: 60px;          Offset content to avoid overlap with fixed header */
+}
+
+
     
 footer {
     font-family: Arial;
