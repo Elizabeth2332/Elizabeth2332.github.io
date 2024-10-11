@@ -1,14 +1,16 @@
 #ODesign {
-font-family:Nanum Myeongjo, serif; 
+font-family:Nanum Myeongjo, serif;
+font-size: 50px;
 text-align: center;
-color: #FFFAF0;
+color: #696969; /*grey text*/
 }
 
 header { 
 color: #808080;
 padding: 25px 50px;
-background-color: #E6E6FA; 
+background-color:#E6E3D3;/*creem back header*/ 
 }
+
 body p{
 font-family: Arial;
 font-size: 20px;
@@ -16,68 +18,10 @@ font-size: 20px;
 
 .captions{
 font-family:Nanum Myeongjo, serif;
-font-size: 25px;
+font-size: 35px;
 
 }
-.header-buttons {
-    position: fixed;          /* Sticks the buttons to the viewport */
-    top: 0;                   /* Position at the very top */
-    left: 0;                  /* Align to the left of the screen */
-    width: 100%;              /* Span the entire width of the screen */
-    background-color: #FFFFF0;   /* Dark background color for the menu */
-    padding: 10px 0;          /* Padding for spacing */
-    display: flex;            /* Flexbox to align buttons */
-    justify-content: center;  /* Center the buttons horizontally */
-    z-index: 1000;            /* Ensure it stays above other content */
-}
 
-.header-buttons button {
-    margin: 0 10px;            /* Spacing between buttons */
-    padding: 10px 20px;        /* Button padding */
-    background-color: #800000; /* Green background */
-    color: white;              /* White text */
-    border: none;              /* No border */
-    border-radius: 5px;        /* Rounded edges */
-    cursor: pointer;           /* Pointer cursor on hover */
-    font-size: 16px;           /* Increase font size */
-}
-
-.header-buttons button:hover {
-    background-color: #45a049;  /* Darken on hover */
-}
-
-/* body {
-    padding-top: 60px;          Offset content to avoid overlap with fixed header */
-}
-
-
-    
-footer {
-    font-family: Arial;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    background-color: #000000; 
-}
-.call-button {
-    position: fixed;    /* Fixed position on the screen */
-    bottom: 20px;       /* 20px from the bottom of the screen */
-    left: 20px;         /* 20px from the left of the screen */
-    padding: 10px 20px; /* Adjust padding for size */
-    background-color: #800000; /* Green background color */
-    color: white;       /* White text color */
-    border: none;       /* No border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer;    /* Pointer on hover */
-    font-size: 16px;    /* Font size */
-}
-
-.call-button:hover {
-    background-color: #45a049; /* Darker green on hover */
-}
-           
-           
 .gallery-container {
     display: flex;
     justify-content: center;
@@ -90,8 +34,47 @@ footer {
     margin: 10px;
     max-width: 100%; /* Prevents images from overflowing the container */
 }
-ul li{
-    font-family: Arial;
-    font-size: 20px;
-    color: #808080;
+
+.header-buttons {
+    position: fixed;          /* Sticks the buttons to the viewport */
+    top: 0;                   /* Position at the very top */
+    left: 0;                  /* Align to the left of the screen */
+    width: 100%;              /* Span the entire width of the screen */
+    background-color: #333;   /* Dark background color for the menu */
+    padding: 10px 0;          /* Padding for spacing */
+    display: flex;            /* Flexbox to align buttons */
+    justify-content: center;  /* Center the buttons horizontally */
+    z-index: 1000;            /* Ensure it stays above other content */
+}
+
+.header-buttons button {
+    margin: 0 10px;            /* Spacing between buttons */
+    padding: 10px 20px;        /* Button padding */
+    background-color: #333; /* Green background */
+    color: white;              /* White text */
+    border: none;              /* No border */
+    border-radius: 5px;        /* Rounded edges */
+    cursor: pointer;           /* Pointer cursor on hover */
+    font-size: 16px;           /* Increase font size */
+}
+
+.header-buttons button:hover {
+    background-color: #807E75;  /* Darken on hover */
+}
+.call-button {
+    position: fixed;    /* Fixed position on the screen */
+    bottom: 20px;       /* 20px from the bottom of the screen */
+    right: 20px;         /* 20px from the left of the screen */
+    padding: 10px 20px; /* Adjust padding for size */
+    background-color: #333; /* Green background color */
+    color: white;       /* White text color */
+    border: none;       /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;    /* Pointer on hover */
+    font-size: 16px;    /* Font size */
+}
+
+.call-button:hover {
+    background-color: #807E75; /* mokko on hover */
+    border: #FFFFF0;  
 }
