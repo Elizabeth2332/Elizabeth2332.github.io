@@ -24,6 +24,8 @@ font-size: 25px;
 .header-buttons button {
     
     font-family: Arial;
+    display: inline-block;
+    position: fixed;
     padding-left: 0;
     margin-left: 0;
     color: #808080;
