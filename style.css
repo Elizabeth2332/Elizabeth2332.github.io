@@ -22,19 +22,28 @@ font-size: 25px;
 
 
 .header-buttons button {
+           
+            bottom: 20px;
+            left: 20px;
+            padding: 15px 25px;
+            background-color: #800000;
+            color: white;
+            
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
     
     font-family: Arial;
-    display: inline-block;
     position: fixed;
-    padding-left: 0;
-    margin-left: 0;
-    color: #808080;
-    display: inline-block;
-    cursor: pointer;
-    background-color:#FFFFF0 ;
-    border-bottom: 5px solid #433813;
+    bottom: 20px;
+    left: 20px;
+    padding: 15px 25px;
+    background-color: #FFFFF0;
+    color:#FFFAF0;
+    border-bottom: 5px solid white;
     border-radius: 5px;
-}
+    position: fixed;
+
 
 .header-buttons button {
    position: fixed;
