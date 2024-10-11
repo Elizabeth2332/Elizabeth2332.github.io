@@ -57,7 +57,10 @@ footer {
 .gallery-container{
     text-aling: center;
 }
-
+.gallery-container img {
+    display: inline-block;
+    margin: 10px; /* Optional: Adds spacing between images */
+}
 ul li{
     font-family: Arial;
 }
