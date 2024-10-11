@@ -70,15 +70,21 @@ footer {
             font-size: 16px;
             text-decoration: none;
         }
-        .call-button:hover {
+.call-button:hover {
             background-color: ;
-
-.gallery-container{
-    text-aling: center;
 }
+           
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
 .gallery-container img {
-    display: inline-block;
-    margin: 10px; /* Adds spacing between images */
+    margin: 10px;
+    max-width: 100%; /* Prevents images from overflowing the container */
 }
 ul li{
     font-family: Arial;
