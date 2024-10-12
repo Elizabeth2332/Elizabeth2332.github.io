@@ -1,3 +1,4 @@
+
 #ODesign {
 font-family:Nanum Myeongjo, serif;
 font-size: 50px;
@@ -30,10 +31,26 @@ font-size: 35px;
     margin: 20px 0;
 }
 
-.gallery-container img {
-    margin: 10px;
-    max-width: 100%; /* Prevents images from overflowing the container */
-}
+.slider {
+            position: relative;
+            width: 1000px;
+            height: 800px;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        /* Style the images inside the slider */
+.slider img {
+            width: 100%;
+            height: 100%;
+            display: none; /* Hide all images by default */
+        }
+
+        /* Show the first image initially */
+.slider img.active {
+ display: block;
+        }
+
 
 .header-buttons {
     position: fixed;          /* Sticks the buttons to the viewport */
@@ -63,9 +80,9 @@ font-size: 35px;
 }
 .call-button {
     position: fixed;    /* Fixed position on the screen */
-    bottom: 20px;       /* 20px from the bottom of the screen */
+    bottom: 5px;       /* 20px from the bottom of the screen */
     right: 20px;         /* 20px from the left of the screen */
-    padding: 10px 20px; /* Adjust padding for size */
+    padding: 12px 40px; /* Adjust padding for size */
     background-color: #333; /* Green background color */
     color: white;       /* White text color */
     border: none;       /* No border */
@@ -73,8 +90,32 @@ font-size: 35px;
     cursor: pointer;    /* Pointer on hover */
     font-size: 16px;    /* Font size */
 }
+.call-button:hover {
+box-shadow: 0 08px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
 .call-button:hover {
-    background-color: #807E75; /* mokko on hover */
-    border: #FFFFF0;  
+background-color: #807E75; /* mokko on hover */
 }
+
+.location-button{
+ bottom: 30px;
+ right: 20px; 
+ background-color: #333; /* brown */
+ border: none;
+ color: white;
+ padding: 12px 20px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ cursor: pointer;
+ border-radius: 5px;
+}
+ .location-button
+  {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+ .location-button:hover {
+ background-color: #807E75;}
+  
