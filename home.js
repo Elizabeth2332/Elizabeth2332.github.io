@@ -15,4 +15,4 @@ function showNextImage() {
 }
 
 // Change image every 3 seconds (3000 milliseconds)
-setInterval(showNextImage, 2000);
+setInterval(showNextImage, 4000);

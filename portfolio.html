@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - O.Design</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">O.Design</div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio-page">
+    <h1>Our Work</h1>
+    <p>Explore our recent projects, from residential masterpieces to commercial designs.</p>
+    <div class="portfolio-grid">
+      <div class="portfolio-item" onclick="openGallery('project1')">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/8ffd5d88283737.5dd21f1c1a8f9.jpg" alt="Project 1">
+        <div class="overlay">
+          <h3>Project 1</h3>
+          <p>Luxury Residential Design</p>
+        </div>
+      </div>
+      <div class="portfolio-item" onclick="openGallery('project2')">
+        <img src="https://i.pinimg.com/originals/e5/ee/28/e5ee2820e52afd5ad010a57d051951b9.jpg" alt="Project 2">
+        <div class="overlay">
+          <h3>Project 2</h3>
+          <p>Modern Kitchen Space</p>
+        </div>
+      </div>
+      
+      
+      <div class="portfolio-item" onclick="openGallery('project3')">
+  <img src="https://th.bing.com/th/id/OIP.CimZYCpf55jYy7Hzc2JoFAAAAA?rs=1&pid=ImgDetMain" alt="Project 3">
+  <div class="overlay">
+    <h3>Project 3</h3>
+    <p>Bedroom Space Transformation</p>
+  </div>
+   </div>
+      
+      
+     <div class="portfolio-item" onclick="openGallery('project4')">
+  <img src="https://i.pinimg.com/originals/de/c0/43/dec043c5bab68cd40f1fbb22c6678183.jpg" alt="Project 4">
+  <div class="overlay">
+    <h3>Project 4</h3>
+    <p>Work Space Transformation</p>
+  </div>
+</div>
+
+      <!-- Add more projects as needed -->
+    </div>
+  </section>
+  
+
+  <!-- Gallery Views -->
+  <div id="project1" class="gallery-view">
+    <button class="close-button" onclick="closeGallery()">Close</button>
+    <h2>Project 1 - Luxury Residential Design</h2>
+    <div class="gallery-images">
+      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/8ffd5d88283737.5dd21f1c1a8f9.jpg" alt="Project 1 Image 1">
+      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4bca75119026797.6094e47fc134a.jpg" alt="Project 1 Image 2">
+      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/ffe644127586067.6144a38c313bd.jpg" alt="Project 1 Image 3">
+    </div>
+  </div>
+
+  <div id="project2" class="gallery-view">
+    <button class="close-button" onclick="closeGallery()">Close</button>
+    <h2>Project 2 - Modern Office Space</h2>
+    <div class="gallery-images">
+      <img src="https://i.pinimg.com/originals/e5/ee/28/e5ee2820e52afd5ad010a57d051951b9.jpg" alt="Project 2 Image 1">
+      <img src="https://res.litfad.com/site/img/item/2021/10/18/2985519/1200x1200.jpg">
+      <img src="https://omfurniture.co.uk/wp-content/uploads/2022/01/Clara-chair-3.jpg">
+    </div>
+  </div>
+  
+  
+  <div id="project3" class="gallery-view">
+  <button class="close-button" onclick="closeGallery()">Close</button>
+  <h2>Project 3 - Retail Space Transformation</h2>
+  <div class="gallery-images">
+    <img src="https://example.com/project3-image1.jpg" alt="Project 3 Image 1">
+    <img src="https://example.com/project3-image2.jpg" alt="Project 3 Image 2">
+    <img src="https://example.com/project3-image3.jpg" alt="Project 3 Image 3">
+  </div>
+</div>
+
+  <div id="project4" class="gallery-view">
+  <button class="close-button" onclick="closeGallery()">Close</button>
+  <h2>Project 4 - Retail Space Transformation</h2>
+  <div class="gallery-images">
+    <img src="https://img.freepik.com/premium-photo/sofa-living-room-interior-design-zoom-background_649024-22055.jpg" alt="Project 3 Image 1">
+    <img src="https://example.com/project3-image2.jpg" alt="Project 3 Image 2">
+    <img src="https://example.com/project3-image3.jpg" alt="Project 3 Image 3">
+  </div>
+</div>
+
+  
+ <!-- Footer -->
+  <footer>
+    <div class="contact-info">
+      <p>Phone: 085 286 9884</p>
+      <p>Email: O.design@gmail.com</p>
+      <p>Address: <a href="https://www.google.com/maps/place/87+Hollystown+Park,+Hollystown,+Dublin,+D15+E3T3/@53.4313015,-6.3912142,17z/data=!4m6!3m5!1s0x486712d749d622ff:0x4d7c95d8699746fc!8m2!3d53.4313015!4d-6.3886393!16s%2Fg%2F11kdc0dnhc?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"> View on Google Maps</a>
+   </p>
+    </div>
+    <div class="social-media">
+      <a href="#">Instagram</a>
+      <a href="#">Pinterest</a>
+      <a href="#">LinkedIn</a>
+    </div>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html" >Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
+
+  
