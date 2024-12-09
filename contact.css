@@ -1,3 +1,10 @@
+/* General Reset and Box Sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Body */
 body {
     font-family: 'Arial', sans-serif;
@@ -105,11 +112,48 @@ body {
   }
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=send] {
+  @media screen and (max-width: 600px) 
+  {
+    .col-25, .col-75, input[type=send] 
       width: 100%;
       margin-top: 0;
     }
+     /* Footer */
+  footer {
+    background-image: linear-gradient(to right, black 30%, #18453b ,black);/* Dark Green gradient*/
+    padding: 20px 20px;
+    text-align: center;
+    }
     
+    footer .contact-info p,
+    footer .contact-info a,
+    footer .social-media a {
+      color: #fff;
+      font-size: 16px;
+      text-decoration: none;
+    }
     
+    footer .social-media a {
+      margin: 0 10px;
+      text-decoration: none;
+    }
     
+    footer .footer-nav ul {
+      list-style-type: none;
+      margin-top: 20px;
+    }
+    
+    footer .footer-nav ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+    
+    footer .footer-nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    } 
+    footer .contact-info a:hover{
+      color: #A46E3C} 
+    footer .footer-nav ul li a:hover{
+     color: #A46E3C; 
+    }
