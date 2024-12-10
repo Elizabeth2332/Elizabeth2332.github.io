@@ -78,6 +78,7 @@
     text-align: center;
     color: #fff;
     z-index: 10;
+    
   }
   
   .overlay h1 {
@@ -100,6 +101,7 @@
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
+    text-align: center;
   }
   
   .overlay .cta-button:hover {

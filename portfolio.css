@@ -1,10 +1,5 @@
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+
+
   p{
     color: #ccc;
     font-size: 25px;
@@ -20,26 +15,31 @@
 
   /* Header */
   header {
+    width: 100%;
+    border-style: dashed;
     display: flex;
     justify-content: space-between;
     padding: 20px;
     background-image: linear-gradient(to right, black 30%, #18453b ,black );/* Dark Green gradient*/
   }
   header .logo {
+    border-style: dashed;
     font-size: 30px;
     font-family: "Times New Roman", Times, serif;
   }
   
-  header nav ul {
+  header nav ul {/*menu bottons area*/
     display: flex;
     list-style: none;
   }
-  
+
   header nav ul li {
-    margin: 0 15px;
+    margin: 0 10px; /* Adjust spacing as needed */
+    display: inline-block;
   }
   
   header nav ul li a {
+    border-style: dashed;
     text-decoration: none;
     color: #fff;
     font-size: 18px;
