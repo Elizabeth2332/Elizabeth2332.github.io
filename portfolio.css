@@ -16,7 +16,8 @@
     background-color: #1e1e1e;
     color: #fff;
   }
-  
+
+
   /* Header */
   header {
     display: flex;
@@ -24,7 +25,6 @@
     padding: 20px;
     background-image: linear-gradient(to right, black 30%, #18453b ,black );/* Dark Green gradient*/
   }
-  
   header .logo {
     font-size: 30px;
     font-family: "Times New Roman", Times, serif;
@@ -58,7 +58,7 @@
   
   .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
   }
   
