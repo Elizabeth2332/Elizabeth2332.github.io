@@ -13,20 +13,20 @@
   }
 
 
-  /* Header */
-  header {
-    width: 100%;
-    border-style: dashed;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-image: linear-gradient(to right, black 30%, #18453b ,black );/* Dark Green gradient*/
-  }
-  header .logo {
-    border-style: dashed;
-    font-size: 30px;
-    font-family: "Times New Roman", Times, serif;
-  }
+ /* Header */
+ header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Ensures vertical alignment */
+  padding: 20px;
+  background-image: linear-gradient(to right, black 30%, #18453b , black); /* Dark Green gradient */
+}
+
+header .logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px; 
+  color: #fff;
+}
   
   header nav ul {/*menu bottons area*/
     display: flex;

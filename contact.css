@@ -14,20 +14,20 @@ body {
   
   
   
-  /* Header */
-  header {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-     background-image: linear-gradient(to right, black 30%, #18453b ,black );/* Dark Green gradient*/
-  }
-  
-  header .logo  {
-    font-family: "Times New Roman", Times, serif;
-    color: #fff;
-    font-size: 30px;
-    text-decoration: none;
-  }
+ /* Header */
+ header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Ensures vertical alignment */
+  padding: 20px;
+  background-image: linear-gradient(to right, black 30%, #18453b , black); /* Dark Green gradient */
+}
+
+header .logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px; 
+  color: #fff;
+}
   
   header nav ul {
     display: flex;

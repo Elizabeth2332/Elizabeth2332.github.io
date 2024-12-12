@@ -14,39 +14,43 @@
   
   
   
-  /* Header */
-  header {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-image: linear-gradient(to right, black 30%, #18453b ,black );/* Dark Green gradient*/
-  }
-  
-  header .logo  {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 30px;
-    text-decoration: none;
-  }
-  
-  header nav ul {
-    display: flex;
-    list-style-type: none;
-  }
-  
-  header nav ul li {
-    margin: 0 15px;
-  }
-  
-  header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  header nav ul li a:hover{
-    color: #A46E3C;
-    text-decoration: underline;
-  }
-  
+ /* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Ensures vertical alignment */
+  padding: 20px;
+  background-image: linear-gradient(to right, black 30%, #18453b , black); /* Dark Green gradient */
+}
+
+header .logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px; 
+  color: #fff;
+}
+
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav ul li a:hover {
+  color: #A46E3C;
+  text-decoration: underline;
+}
+
   
   
   
@@ -56,38 +60,51 @@
     text-align: center;
   }
   
-  .slider {
+  .back_image {
     position: relative;
     overflow: hidden;
     text-align: center;
+    height: 700px;
   }
   
-  .slider img {
+  .back_image img {
     height: 100%;
     width: 100%;
     object-fit: cover; /*resize*/
-    filter: blur(1px) brightness(60%);
-  }
+    filter: blur(1px) brightness(60%);}
 
-  
+  @media (max-width: 768px) {
+    .overlay h1 {
+      font-size: 24px;
+      }
+    .overlay p {
+      font-size: 16px;
+      }
+    }
+     
   .overlay {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    justify-content: center;
     color: #fff;
     z-index: 10;
     
   }
   
   .overlay h1 {
-    font-size: 40px;
+    font-size: 24px;
     color: #fff;
   }
   
   .overlay p {
-    font-size: 20px;
+    font-size: 16px;
     color: #ccc;
     margin-top: 10px;
   }
