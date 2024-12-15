@@ -13,14 +13,13 @@ body {
   }
   
   
-  
  /* Header */
- header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center; /* Ensures vertical alignment */
   padding: 20px;
-  background-image: linear-gradient(to right, black 30%, #18453b , black); /* Dark Green gradient */
+  background-image: linear-gradient(to right, black 30%, #18453b, black); /* Dark Green gradient */
 }
 
 header .logo {
@@ -28,26 +27,26 @@ header .logo {
   font-size: 20px; 
   color: #fff;
 }
-  
-  header nav ul {
-    display: flex;
-    list-style-type: none;
-  }
-  
-  header nav ul li {
-    margin: 0 15px;
-  }
-  
-  header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  header nav ul li a:hover{
-    color:#A46E3C;
-    text-decoration: underline;
-  }
-  
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav ul li a:hover {
+  color: #A46E3C;
+  text-decoration: underline;
+}
   
   
   

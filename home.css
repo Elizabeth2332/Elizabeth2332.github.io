@@ -1,26 +1,17 @@
 /* General Reset and Box Sizing */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Body */
-  body {
-    font-family: 'Arial', sans-serif;
-    color: #fff;
-    background-color: #1e1e1e;
-  }
-  
-  
-  
- /* Header */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center; /* Ensures vertical alignment */
   padding: 20px;
-  background-image: linear-gradient(to right, black 30%, #18453b , black); /* Dark Green gradient */
+  background-image: linear-gradient(to right, black 30%, #18453b, black); /* Dark Green gradient */
 }
 
 header .logo {
@@ -29,11 +20,9 @@ header .logo {
   color: #fff;
 }
 
-
 header nav ul {
   display: flex;
   list-style-type: none;
-  margin: 0;
 }
 
 header nav ul li {
@@ -51,6 +40,13 @@ header nav ul li a:hover {
   text-decoration: underline;
 }
 
+/* Body */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  background-color: #1e1e1e;
+  line-height: 1.6; /* Improved readability */
+}
   
   
   
