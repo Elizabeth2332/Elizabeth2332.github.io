@@ -5,15 +5,7 @@
   box-sizing: border-box;
 }
 
-/* Body */
-body {
-    font-family: 'Arial', sans-serif;
-    color: #fff;
-    background-color: #1e1e1e;
-  }
-  
-  
- /* Header */
+/* Header */
 header {
   display: flex;
   justify-content: space-between;
@@ -47,6 +39,16 @@ header nav ul li a:hover {
   color: #A46E3C;
   text-decoration: underline;
 }
+
+/* Body */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  background-color: #1e1e1e;
+  line-height: 1.6; /* Improved readability */
+}
+  
+  
   
   
   
