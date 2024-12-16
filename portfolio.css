@@ -212,56 +212,14 @@ footer .footer-nav ul li a:hover {
   color: #A46E3C;
 }
 
-/* Buttons */
-button {
-  font-family: 'Arial', sans-serif;
-  font-size: 18px;
-  padding: 10px 20px;
+/* buttom nav */
+ul, ol {
+  margin-left: 20px;
   color: #fff;
-  background-color: #18453b; /* Match theme colors */
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
 }
 
-button:hover {
-  background-color: #A46E3C; /* Accent hover color */
-}
-
-/* Links */
-a {
-  color: #A46E3C; /* Accent color for links */
-  text-decoration: none;
+li {
   font-size: 18px;
-}
-
-a:hover {
-  color: #FFD700; /* Highlight color on hover */
-  text-decoration: underline;
-}
-
-/* Small Text */
-small {
-  font-size: 14px;
-  color: #888; /* Muted color for less emphasis */
-}
-
-/* Responsive Design for Portfolio Page */
-@media (max-width: 768px) {
-  .portfolio-page h1 {
-    font-size: 32px;
-  }
-
-  .portfolio-page p {
-    font-size: 16px;
-  }
-
-  .portfolio-item .overlay h3 {
-    font-size: 20px;
-  }
-
-  .portfolio-item .overlay p {
-    font-size: 16px;
-  }
+  line-height: 1.8;
+  margin-bottom: 10px; /* Space between list items */
 }

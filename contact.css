@@ -55,21 +55,18 @@ body {
 h1 {
   font-size: 27px;
   font-weight: bold;
- 
   margin-bottom: 20px;
 }
 
 h2 {
   font-size: 20px;
   font-style: italic;
- 
   margin-bottom: 20px;
 }
 
 h3 {
   font-size: 22px;
   font-weight: normal;
-
   margin-bottom: 25px; /* Increase spacing below headings */
 } 
  p {
@@ -77,8 +74,7 @@ h3 {
   font-style: italic;
 }
 
-  
-  
+   
   /*form*/
   * {
     box-sizing: border-box;
@@ -139,7 +135,7 @@ h3 {
     clear: both;
   }
 
-     /* Footer */
+  /* Footer */
   footer {
     background-image: linear-gradient(to right, black 30%, #18453b ,black);/* Dark Green gradient*/
     padding: 20px 20px;
@@ -178,17 +174,17 @@ h3 {
     footer .footer-nav ul li a:hover{
      color: #A46E3C; 
     }
-    /* FAQ and Testimonials */
-
-.faq {
-  margin-bottom: 30px;
+    
+/* FAQ and Testimonials */
+  .faq {
+    margin-bottom: 30px;
 }
 
-.faq h3 {
-  font-size: 18px;
+  .faq h3 {
+    font-size: 18px;
 }
 
-.testimonials blockquote {
+  .testimonials blockquote{
   font-style: italic;
   font-size: 16px;
   margin: 20px 0;
@@ -209,7 +205,6 @@ h3 {
 
 /* CTA Section */
 .cta-section {
- 
   padding: 20px;
   margin: 30px 0;
   text-align: center;
@@ -245,9 +240,14 @@ h3 {
   color: #A46E3C;
 }
 
-a{
-  color:#fff;
+/* buttom nav */
+ul, ol {
+  margin-left: 20px;
+  color: #fff;
 }
-a:hover{
-  color: #A46E3C;
+
+li {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 10px; /* Space between list items */
 }

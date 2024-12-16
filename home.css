@@ -240,3 +240,14 @@ body {
   footer .footer-nav ul li a:hover{
    color: #A46E3C; 
   }
+  /* nav buttom */
+ul, ol {
+  margin-left: 20px;
+  color: #fff;
+}
+
+li {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 10px; /* Space between list items */
+}

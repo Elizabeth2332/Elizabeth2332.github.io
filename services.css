@@ -143,46 +143,8 @@ footer .footer-nav ul li a:hover {
   color: #A46E3C;
 }
 
-/* Buttons */
-button {
-  font-family: 'Arial', sans-serif;
-  font-size: 18px;
-  padding: 10px 20px;
-  color: #fff;
-  background-color: #18453b; /* Match theme colors */
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
 
-button:hover {
-  background-color: #A46E3C; /* Accent hover color */
-}
-
-/* Links */
-a {
-  color: #A46E3C; /* Accent color for links */
-  text-decoration: none;
-  font-size: 18px;
-}
-
-a:hover {
-  color: #FFD700; /* Highlight color on hover */
-  text-decoration: underline;
-}
-
-/* Block Quotes */
-blockquote {
-  font-size: 20px; /* Slightly larger for emphasis */
-  font-style: italic;
-  color: #fff;
-  border-left: 4px solid #A46E3C; /* Accent border */
-  padding-left: 10px;
-  margin: 20px 0;
-}
-
-/* Lists */
+/* nav battom*/
 ul, ol {
   margin-left: 20px;
   color: #fff;
@@ -194,8 +156,3 @@ li {
   margin-bottom: 10px; /* Space between list items */
 }
 
-/* Small Text */
-small {
-  font-size: 14px;
-  color: #888; /* Muted color for less emphasis */
-}

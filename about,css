@@ -24,11 +24,12 @@ header .logo {
 
 header nav ul {
   display: flex;
-  list-style-type: none;
+  list-style-type: none;/*removes the points*/
 }
 
 header nav ul li {
-  margin: 0 15px;
+  margin: 0 15px;/*0 space up, down and 15px on right, left
+  */
 }
 
 header nav ul li a {
@@ -102,26 +103,10 @@ section1 p {
   margin-bottom: 20px;
 }
 
-/* Table (Same as Services Page) */
-table, td, th {
-  border: 1px solid #ddd;
-  text-align: left;
-}
-
-table {
-  border-collapse: collapse;
-  width: 50%;
-  margin-bottom: 20px; /* Add spacing below the table */
-}
-
-th, td {
-  padding: 15px;
-}
-
 /* Footer - Same as Services Page */
 footer {
   background-image: linear-gradient(to right, black 30%, #18453b, black); /* Dark Green gradient */
-  padding: 40px 20px;
+  padding: 40px 20px;/*40px  top/bottom, 20px left/right.*/
   text-align: center;
 }
 
@@ -161,46 +146,8 @@ footer .footer-nav ul li a:hover {
   color: #A46E3C;
 }
 
-/* Buttons (Same as Services Page) */
-button {
-  font-family: 'Arial', sans-serif;
-  font-size: 18px;
-  padding: 10px 20px;
-  color: #fff;
-  background-color: #18453b; /* Match theme colors */
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
 
-button:hover {
-  background-color: #A46E3C; /* Accent hover color */
-}
-
-/* Links */
-a {
-  color: #A46E3C; /* Accent color for links */
-  text-decoration: none;
-  font-size: 18px;
-}
-
-a:hover {
-  color: #FFD700; /* Highlight color on hover */
-  text-decoration: underline;
-}
-
-/* Block Quotes (Same as Services Page) */
-blockquote {
-  font-size: 20px; /* Slightly larger for emphasis */
-  font-style: italic;
-  color: #fff;
-  border-left: 4px solid #A46E3C; /* Accent border */
-  padding-left: 10px;
-  margin: 20px 0;
-}
-
-/* Lists */
+/* buttom nav */
 ul, ol {
   margin-left: 20px;
   color: #fff;
@@ -212,8 +159,3 @@ li {
   margin-bottom: 10px; /* Space between list items */
 }
 
-/* Small Text (Same as Services Page) */
-small {
-  font-size: 14px;
-  color: #888; /* Muted color for less emphasis */
-}  
