@@ -9,6 +9,8 @@
 header {
   display: flex;
   justify-content: space-between;
+  flex-flow: nowrap;
+  overflow: hidden;
   align-items: center; /* Ensures vertical alignment */
   padding: 20px;
   background-image: linear-gradient(to right, black 30%, #18453b, black); /* Dark Green gradient */
