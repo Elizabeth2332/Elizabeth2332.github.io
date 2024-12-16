@@ -8,6 +8,8 @@
 /* Header */
 header {
   display: flex;
+  flex-flow: nowrap;
+  overflow: hidden;
   justify-content: space-between;
   align-items: center; /* Ensures vertical alignment */
   padding: 20px;
@@ -68,15 +70,6 @@ body {
     width: 100%;
     object-fit: cover; /*resize*/
     filter: blur(1px) brightness(60%);}
-
-  @media (max-width: 768px) {
-    .overlay h1 {
-      font-size: 24px;
-      }
-    .overlay p {
-      font-size: 16px;
-      }
-    }
      
   .overlay {
     position: absolute;

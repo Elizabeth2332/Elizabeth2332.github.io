@@ -8,6 +8,8 @@
 /* Header */
 header {
   display: flex;
+  flex-flow: nowrap;
+  overflow: hidden;
   justify-content: space-between;
   align-items: center; /* Ensures vertical alignment */
   padding: 20px;
