@@ -75,7 +75,7 @@ section p {
 /* Portfolio Section */
 .portfolio-page {
   text-align: center;
-  padding: 100px 20px 40px 20px; /* Extra padding at the top to avoid header overlap */
+  padding: 20px 20px 40px 20px; /* Extra padding at the top to avoid header overlap */
   background-color: #2d2d2d;
 }
 
