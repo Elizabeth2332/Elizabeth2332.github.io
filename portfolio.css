@@ -52,15 +52,8 @@ body {
 }
 
 h1 {
-  font-size: 27px;
+  font-size: 25px;
   font-weight: bold;
-  color: #A46E3C;
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 20px;
-  font-style: italic;
   color: #A46E3C;
   margin-bottom: 20px;
 }
