@@ -1,0 +1,263 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Background */
+body {
+    background-image: url('images/backgroundnew.jpg'); /* Matches Home */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+/* Navigation */
+header {
+    background: transparent;
+    padding: 20px 60px;
+    position: absolute;
+    width: 100%;
+    z-index: 100; /* Ensure it's above other elements */
+}
+
+.menu-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu-links li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.menu-links li a:hover {
+    color: #6460dc;
+}
+
+/* Active page */
+.menu-links li a.active {
+    border: 1px solid #ffffff; /* White border */
+    padding: 4px 10px; /* Add spacing inside the border */
+    border-radius: 4px; /* Optional: keeps it squared but slightly rounded */
+    color: #ffffff; /* Make text white */
+    background-color: transparent; /* Ensure it matches the design */
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-links li a.active:hover {
+    border-color: #6460dc; /* Change border color on hover */
+    color: #6460dc; /* Change text color on hover */
+}
+
+
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.hero-content h1 {
+    font-size: 100px;
+    font-weight: 800;
+    color: #6460dc;
+    opacity: 0.8;
+}
+
+.hero-content p {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+/*Buttons*/
+.button {
+    display: inline-block;
+    background-color: transparent;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+/* White Button */
+.button.explore {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.button.explore:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.button.explore:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: 0.5s;
+}
+
+.button.explore:hover:after {
+    left: 100%;
+}
+
+/* Purple Button */
+.button.learn {
+    color: #6460dc;
+    border: 2px solid #6460dc;
+}
+
+.button.learn:hover {
+    background-color: rgba(100, 96, 220, 0.1);
+}
+
+.button.learn:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(100, 96, 220, 0.2), transparent);
+    transition: 0.5s;
+}
+
+.button.learn:hover:after {
+    left: 100%;
+}
+
+
+/*  LAST SECTION  */
+.discover {
+    background-color: #fff;
+    text-align: center;
+    padding: 80px 20px; /* Increased padding */
+}
+
+.discover h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.discover p {
+    font-size: 1.2em;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+/* ABOUT SECTION  */
+.about {
+    background-color: #f4f4f4;
+    padding: 100px 20px;
+    text-align: center;
+    
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color:#6460dc;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #333;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Smooth Animation */
+.hero-content {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Footer */
+footer {
+    background-color:linear-gradient(#6460dc, #1a185b);
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+/* RESPONSIVE FIXES */
+@media (max-width: 900px) {
+    .menu-links {
+        gap: 20px;
+    }
+    
+    .menu-links li a {
+        font-size: 16px;
+    }
+    
+    .hero-content h1 {
+        font-size: 70px;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+    }
+
+    .below-dark-section {
+        padding: 60px 20px;
+    }
+
+    .about {
+        padding: 80px 20px;
+    }
+}
+@media (max-width: 600px) {
+    header {
+        padding: 15px;
+    }
+    
+    .menu-links {
+        gap: 10px;
+    }
+    
+    .menu-links li a {
+        font-size: 14px;
+    }
+    
+    .hero-content h1 {
+        font-size: 50px;
+    }
+    
+    .learning-journey h2 {
+        font-size: 1.8em;
+    }
+}
+

@@ -1,0 +1,402 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Background */
+body {
+    background-image: url('images/backgroundnew.jpg'); /* Matches Home */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0.85);
+}
+body h2{
+    font-size: 2.5em;
+    text-align: center;
+
+}
+
+/* Navigation */
+header {
+    background: transparent;
+    padding: 20px 60px;
+    position: absolute;
+    width: 100%;
+    z-index: 100; /* Ensure it's above other elements */
+}
+
+.menu-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu-links li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.menu-links li a:hover {
+    color: #6460dc;
+}
+
+/* Active page */
+.menu-links li a.active {
+    border: 1px solid #ffffff; /* White border */
+    padding: 4px 10px; /* Add spacing inside the border */
+    border-radius: 4px; /* Optional: keeps it squared but slightly rounded */
+    color: #ffffff; /* Make text white */
+    background-color: transparent; /* Ensure it matches the design */
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-links li a.active:hover {
+    border-color: #6460dc; /* Change border color on hover */
+    color: #6460dc; /* Change text color on hover */
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.hero-content h1 {
+    font-size: 100px;
+    font-weight: 800;
+    color: #6460dc;
+    opacity: 0.8;
+}
+
+.hero-content p {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/* White Button */
+.button.explore {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    background-color: transparent;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.button.explore:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.button.explore:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: 0.5s;
+}
+
+.button.explore:hover:after {
+    left: 100%;
+}
+
+/* Projects Showcase Section */
+.learning-projects {
+    background-color: #f4f4f4;
+    text-align: center;
+    width: 100%; /* Ensures full width */
+    padding: 100px 20px;
+    
+}
+.learning-projects h2 {
+    font-size: 2.5em;
+    color:#6460dc;
+    margin-bottom: 1rem;
+}
+
+.learning-projects p {
+    font-size: 1.2em;
+    color:#666;
+    margin-bottom: 3rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.project-card {
+    background: #f8f8f8;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-image {
+    height: 180px;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+}
+
+.project-details {
+    padding: 1.5rem;
+}
+
+.project-details h3 {
+    color: #5c5edc;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.project-details p {
+    text-align: left;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+    gap: 0.5rem;
+}
+
+.project-tags span {
+    background: #e4e4fe;
+    color: #5c5edc;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+.project-link {
+    display: inline-block;
+    color: #5c5edc;
+    font-weight: bold;
+    padding: 0.5rem 0;
+    position: relative;
+}
+
+.project-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #5c5edc;
+    transition: width 0.3s ease;
+}
+
+.project-link:hover::after {
+    width: 100%;
+}
+
+.see-more {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.coming-soon {
+    font-style: italic;
+    color: #666;
+}
+
+/* Current Skills Section */
+.current-skills {
+    background: #bbbbcf;
+    padding: 5rem 2rem;
+    color:#151a64;
+    
+}
+.current-skills h2{
+    margin-bottom: 2rem;   
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skill-category {
+    background: rgb(15, 12, 56);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-category h3 {
+    color:#9b9ba7;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.skill-category ul {
+    list-style-position: inside;
+}
+
+.skill-category li {
+    color:#b4b4c4;
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+}
+
+/* Learning Goals Section */
+.learning-goals {
+    padding: 5rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.learning-goals p {
+    color: #666;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.goals-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.goal-item {
+    background: #f8f8f8;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.goal-item h3 {
+    color: #5c5edc;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+/* Footer */
+footer {
+    background:#2c3d5d;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 15px;
+    }
+    
+    .menu-links {
+        gap: 10px;
+    }
+    
+    .menu-links li a {
+        font-size: 14px;
+    }
+    
+    .hero-content h1 {
+        font-size: 50px;
+    }
+    
+    .learning-journey h2 {
+        font-size: 1.8em;
+    }
+}
+
+/* RESPONSIVE FIXES */
+@media (max-width: 900px) {
+    header {
+        padding: 20px;
+    }
+    
+    .menu-links {
+        gap: 15px;
+    }
+    
+    .menu-links li a {
+        font-size: 16px;
+    }
+    
+    .hero-content h1 {
+        font-size: 70px;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+    }
+    
+    .learning-journey {
+        padding: 60px 20px;
+    }
+    
+    .learning-journey h2 {
+        font-size: 2em;
+    }
+    
+    .learning-journey p {
+        font-size: 1em;
+    }
+    
+    .discover {
+        padding: 60px 20px;
+    }
+}
+/* Smooth Animation */
+.hero-content {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1.5s ease-in-out forwards;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
